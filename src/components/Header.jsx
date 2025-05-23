@@ -4,8 +4,8 @@ function Header() {
     const [menu, setMenu] = useState(false);
 
     return (
-        <div className='fixed top-3 w-full px-4'>
-            <header className='container mx-auto p-4 bg-zinc-700 rounded-lg hidden lg:flex items-center justify-between shadow-2xl'>
+        <div className='fixed top-3 w-full px-4 z-50'>
+            <header className='container mx-auto p-4 bg-zinc-800 rounded-lg hidden lg:flex items-center justify-between shadow-2xl'>
                 <h2 className='text-xl font-bold'>
                     Aliakbar Nazemi
                 </h2>
@@ -16,22 +16,19 @@ function Header() {
                     <a href="/about" className='text-lg font-[400]'>
                         About
                     </a>
-                    <a href="#" className='text-lg font-[400]'>
+                    <a href="/skills" className='text-lg font-[400]'>
                         Skills
                     </a>
-                    <a href="#" className='text-lg font-[400]'>
-                        Experiences
-                    </a>
-                    <a href="#" className='text-lg font-[400]'>
+                    <a href="/projects" className='text-lg font-[400]'>
                         Projects
                     </a>
-                    <a href="#" className='text-lg font-[400]'>
+                    <a href="/contacts" className='text-lg font-[400]'>
                         Contacts
                     </a>
                 </div>
             </header>
 
-            <header className='container mx-auto p-4 bg-zinc-700 rounded-lg flex lg:hidden items-center justify-between'>
+            <header className='container mx-auto p-4 bg-zinc-800 rounded-lg flex lg:hidden items-center justify-between'>
                 <h2 className='text-xl font-bold'>
                     Aliakbar Nazemi
                 </h2>
@@ -49,22 +46,19 @@ function Header() {
             </header>
 
             {menu === true ? <header className='w-full bg-zinc-700 mt-4 transition rounded-lg p-4 flex flex-col gap-4'>
-                <a href="#" className='text-lg font-[400]'>
+                <a href="/" className='text-lg font-[400]'>
                     Home
                 </a>
-                <a href="#" className='text-lg font-[400]'>
+                <a href="/about" className='text-lg font-[400]'>
                     About
                 </a>
-                <a href="#" className='text-lg font-[400]'>
+                <a href="/skills" className='text-lg font-[400]'>
                     Skills
                 </a>
-                <a href="#" className='text-lg font-[400]'>
-                    Experiences
-                </a>
-                <a href="#" className='text-lg font-[400]'>
+                <a href="/projects" className='text-lg font-[400]'>
                     Projects
                 </a>
-                <a href="#" className='text-lg font-[400]'>
+                <a href="/contacts" className='text-lg font-[400]'>
                     Contacts
                 </a>
             </header> : <header></header>}

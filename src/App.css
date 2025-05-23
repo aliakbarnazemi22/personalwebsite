@@ -1,38 +1,73 @@
-.App {
-  text-align: center;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  color-scheme: dark;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+@font-face {
+  font-family: Poppins;
+  src: url(../public/fonts/Poppins/Poppins-Thin.ttf);
+  font-weight: 100;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+@font-face {
+  font-family: Poppins;
+  src: url(../public/fonts/Poppins/Poppins-ExtraLight.ttf);
+  font-weight: 200;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+@font-face {
+  font-family: Poppins;
+  src: url(../public/fonts/Poppins/Poppins-Light.ttf);
+  font-weight: 300;
 }
 
-.App-link {
-  color: #61dafb;
+@font-face {
+  font-family: Poppins;
+  src: url(../public/fonts/Poppins/Poppins-Regular.ttf);
+  font-weight: 400;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+@font-face {
+  font-family: Poppins;
+  src: url(../public/fonts/Poppins/Poppins-Medium.ttf);
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: Poppins;
+  src: url(../public/fonts/Poppins/Poppins-SemiBold.ttf);
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: Poppins;
+  src: url(../public/fonts/Poppins/Poppins-Bold.ttf);
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: Poppins;
+  src: url(../public/fonts/Poppins/Poppins-ExtraBold.ttf);
+  font-weight: 800;
+}
+
+@font-face {
+  font-family: Poppins;
+  src: url(../public/fonts/Poppins/Poppins-Black.ttf);
+  font-weight: 900;
+}
+
+body {
+  font-family: Poppins;
+  position: relative;
+  background-color: #18181b;
+}
+
+.transition2 {
+    transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 300ms;
 }

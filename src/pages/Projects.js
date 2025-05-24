@@ -31,7 +31,7 @@ function Projects() {
       title: 'Redesigning the Nike website.',
       desc: 'Redesigning the Nike website, specifically the homepage, using React and Tailwind for styling, and making it fully responsive.',
       link: 'https://github.com/aliakbarnazemi22/nike'
-    },
+    }
   ]
   return (
     <div>

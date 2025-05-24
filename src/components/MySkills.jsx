@@ -67,7 +67,7 @@ function MySkills() {
                     </SwiperSlide>
                 ))}
             </Swiper>
-
+            <br />
         </section>
     )
 }

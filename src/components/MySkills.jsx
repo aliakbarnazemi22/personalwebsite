@@ -12,18 +12,18 @@ function MySkills() {
         },
         {
             id: 2,
+            title: "Tailwind CSS",
+            value: 100
+        },
+        {
+            id: 3,
             title: "JS",
             value: 95
         },
         {
-            id: 3,
+            id: 4,
             title: "React JS",
             value: 95
-        },
-        {
-            id: 4,
-            title: "Tailwind CSS",
-            value: 100
         }
     ];
     return (
@@ -61,7 +61,7 @@ function MySkills() {
                             <h3 className="text-2xl font-bold mt-2">{card.title}</h3>
 
                             <div className="relative w-[90%] h-[15px] bg-zinc-800 rounded-full">
-                                <div className="absolute h-full bg-white rounded-lg top-0 left-0" style={{width : card.value + '%'}}></div>
+                                <div className="absolute h-full bg-white rounded-lg top-0 left-0" style={{ width: card.value + '%' }}></div>
                             </div>
                         </div>
                     </SwiperSlide>

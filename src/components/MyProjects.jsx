@@ -39,7 +39,7 @@ function MyProjects() {
                 {cards.map((card) => (
                     <div className='w-full md:w-1/2 lg:w-1/3 p-3'>
                         <div id={card.id} className="w-full bg-zinc-700 shadow rounded-lg p-4 text-start min-h-[180px] flex flex-col justify-center gap-4">
-                            <h3 className="text-2xl font-bold mt-2 leading-[1.6]">{card.title}</h3>
+                            <h3 className="text-2xl font-bold mt-2 leading-[1.6] line-clamp-1">{card.title}</h3>
                             <p className='text-lg font-[500]v text-start line-clamp-1'>
                                 {card.desc}
                             </p>

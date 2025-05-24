@@ -50,7 +50,7 @@ function Skills() {
     ];
     return (
         <div>
-            <div className='md:px-0 px-4 container mx-auto mt-24'>
+            <div className='md:px-0 px-4 container mx-auto mt-24 mb-8'>
                 <h2 className='ml-3 text-3xl font-bold text-start'>
                     My Skills
                 </h2>

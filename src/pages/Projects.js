@@ -35,7 +35,7 @@ function Projects() {
   ]
   return (
     <div>
-      <div className='md:px-0 px-4 container mx-auto mt-24 md:mt-32'>
+      <div className='md:px-0 px-4 container mx-auto mt-24 md:mt-32 mb-8'>
         <section className='container mx-auto my-6'>
           <div className="flex justify-between items-center">
             <h2 className='text-3xl font-bold text-start ml-3'>

@@ -2,7 +2,7 @@ import React from 'react'
 
 function About() {
   return (
-    <div className='md:px-0 px-4 container mx-auto mt-24'>
+    <div className='md:px-0 px-4 container mx-auto mt-24 mb-8'>
       <h2 className='text-3xl font-bold'>
         Aliakbar Nazemi
       </h2>

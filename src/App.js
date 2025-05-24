@@ -5,6 +5,7 @@ import Home from './pages/Home';
 import About from './pages/About';
 import Skills from './pages/Skills';
 import Projects from './pages/Projects';
+import Footer from './components/Footer';
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
         <Route path="/skills" element={<Skills />} />
         <Route path="/projects" element={<Projects />} />
       </Routes>
+      <Footer />
     </Router>
   );
 }
